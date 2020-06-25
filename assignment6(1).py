@@ -16,6 +16,7 @@ else:
         count +=1
 #programme to print the multiplication table of a number
 k=int(input("enter a number"))
-print("Multipliction of a number",k)
-for i in range (1,11):
-    print(k,"x",i,"=",k*i)
+i=1
+while i<=10:
+    print(k,'x',i,'=',k*i)
+    i=i+1
