@@ -20,3 +20,13 @@ str1=str.rstrip('l')
 str2=str.lstrip('l')
 print(str1)
 print(str2)
+
+#to read the content of the file using for loop
+f1=open("hello.txt")
+for each in f1:
+  print(each)
+  
+  
+  
+  
+  
