@@ -25,6 +25,10 @@ print(str2)
 f1=open("hello.txt")
 for each in f1:
   print(each)
+#to read a file lineby line
+f1=open("hello.txt","r")
+s=f1.readlines()
+print(s)
   
   
   
